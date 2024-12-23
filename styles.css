@@ -2,13 +2,19 @@
   display: flex; /* Enables flexbox */
   flex-direction: row;
   gap: 20px; /* Adds space between items */
+  align-items: center;
 }
 
-.column-container {
+.right-align {
+  margin-left: auto;
+}
+
+.centered-column-container {
   display: flex;
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center horizontally */
   text-align: center; /* Center-align the text */
+  gap: 2px;
 }
 
 body {
@@ -16,7 +22,7 @@ body {
 }
 
 h2 {
-  background-color: rgb(177, 89, 255);
+  background-color: rgb(153, 89, 255);
   padding: 2px;
   color: white;
 }
